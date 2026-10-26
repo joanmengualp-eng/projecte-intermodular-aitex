@@ -1,4 +1,4 @@
-<h1 align="center">🌍 Tasca 5. Contribució als ODS</h1>
+<h1 align="center">🌍 Contribució als ODS</h1>
 
 <p align="center">
   <img alt="ODS 8" src="https://img.shields.io/badge/ODS-8-A21942?style=for-the-badge">
