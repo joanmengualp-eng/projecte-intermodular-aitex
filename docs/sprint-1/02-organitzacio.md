@@ -10,7 +10,7 @@
 
 ---
 
-**Mariola Data Solutions, S.L.** és una empresa d'Alcoi amb **16 treballadors/es** i una estructura senzilla: la Direcció General dirigeix sis departaments més, i moltes persones fan més d'una funció.
+**Aitex Datacenter** és una empresa d'Alcoi amb **16 treballadors/es** i una estructura senzilla: la Direcció General dirigeix sis departaments més, i moltes persones fan més d'una funció.
 
 ---
 
