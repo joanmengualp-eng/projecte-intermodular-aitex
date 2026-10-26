@@ -1,4 +1,4 @@
-<h1 align="center">🖥️ Tasca 4. Relació de maquinari i programari</h1>
+<h1 align="center">🖥️ Relació de maquinari i programari</h1>
 
 <p align="center">
   <img alt="Empresa" src="https://img.shields.io/badge/Empresa-Aitex_Datacenter-1F3A5F?style=for-the-badge">
