@@ -1,7 +1,7 @@
 <h1 align="center">🏢 Organització interna de l'empresa</h1>
 
 <p align="center">
-  <img alt="Empresa" src="https://img.shields.io/badge/Aitex Datacenter%2.-1F3A5F?style=for-the-badge">
+  <img alt="Empresa" src="https://img.shields.io/badge/Aitex Datacenter%2_C.-1F3A5F?style=for-the-badge">
   <img alt="Ubicació" src="https://img.shields.io/badge/Ubicaci%C3%B3-Alcoi-B23A48?style=for-the-badge">
   <img alt="Treballadors" src="https://img.shields.io/badge/Treballadors-16-2E7D6B?style=for-the-badge">
 </p>
