@@ -37,6 +37,8 @@ El projecte s'estructura en diferents blocs i tasques que abasten des de la defi
 | 📄 `01-definicio-empresa.md` | **Definició de l'Empresa** | Dades generals, oferta (*Half/Full-Server*), públic B2B, volum de negoci, estratègia i empreses de referència. | ✅ Completat |
 | 🧭 `02-organitzacio-interna.md` | **Organització Interna** | Distribució dels 16 treballadors en 7 departaments, llocs de treball, rols i organigrama jeràrquic. | ✅ Completat |
 | 💻 `03-recursos-tic.md` | **Identificació dels Recursos TIC** | Inventari justificat de 18 equips d'usuari, 320 servidors de producció, 7 servidors interns, xarxa i perifèrics (RA1.g). | ✅ Completat |
+| 🌐 `04-disseny-xarxa.md` | **Disseny de la Infraestructura i Xarxa** | Topologia física i lògica del CPD, segmentació en VLANs, adreçament IP i diagrama de xarxa de les 5 plantes. | ✅ Completat |
+| 💰 `05-pressupost-implantacio.md` | **Pressupost, Seguretat i Implantació** | Valoració econòmica de maquinari/programari, polítiques de seguretat/còpies (RGPD) i desplegament de serveis. | ✅ Completat |
 | 🌐 *Bloc 2 (Pròximament)* | **Disseny de la Infraestructura** | Disseny detallat de la infraestructura, adreçament i diagrama lògic/físic de la xarxa. | ⏳ Pendent |
 
 ---
