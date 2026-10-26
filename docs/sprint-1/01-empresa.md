@@ -59,3 +59,23 @@ pie showData
     title Ocupació mitjana dels servidors (75% actius)
     "Servidors en lloguer (Full / Half-Server)" : 240
     "Servidors disponibles / Reserva d'escalabilitat" : 80
+```
+
+---
+
+## 🛡️ 4. Estratègia Empresarial
+
+| Pilar estratègic | Mesures d'implementació per respondre als clients |
+|---|---|
+| ⚡ **Alta Disponibilitat (Uptime)** | Ús de fonts d'alimentació redundants i generadors d'emergència per garantir que els servidors no s'apaguen mai. |
+| 🚀 **Escalabilitat immediata** | Facilitat perquè un client puga passar d'un pla *Half-Server* a un *Full-Server* de manera immediata si el seu trànsit web o volum de dades creix. |
+| 🔒 **Ciberseguretat i Suport 24/7** | Monitoratge de xarxa les 24 hores del dia, mitigació d'atacs DDoS i suport tècnic directe per a l'administració dels sistemes operatius (**Linux / Windows**) dels clients. |
+
+---
+
+## 🌐 5. Empreses Reals del Sector de Referència
+
+| Empresa | Ubicació | Activitat principal | Principals serveis | Enllaç web |
+|---|---|---|---|---|
+| 🏢 **Titan CPD** | Múrcia | Centre de Processament de Dades i lloguer de servidors físics i virtuals. | *Housing*, *hosting* per a empreses, sistemes de còpies de seguretat en el núvol i ciberseguretat. | [cpdtitan.com](https://cpdtitan.com/) |
+| 🔬 **AITEX** | Alcoi | Associació d'Investigació de la Indústria Tèxtil (referent d'infraestructura d'R+D+i i serveis corporatius a la zona). | Investigació aplicada, innovació tecnològica, laboratori avançat i certificació amb instal·lacions i servidors propis per a grans volums de dades. | [aitex.es](https://www.aitex.es/) |
