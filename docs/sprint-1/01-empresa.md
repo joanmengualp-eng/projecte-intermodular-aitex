@@ -1,51 +1,61 @@
-# Definició de l'Empresa: Aitex Datacenter
+<h1 align="center">🏢 Definició de l'Empresa: Aitex Datacenter</h1>
 
-## 1. Dades Generals
-* **Nom comercial i ubicació:** 
-  **Aitex (Divisió Datacenter)**. Seu ubicada a Alcoi (Alacant), Carrer País Valencià, 48.
-* **Activitat econòmica i sector al qual pertany:** 
-  Pertany al **sector tecnològic (TIC)**. La seua activitat principal és exercir de Centre de Processament de Dades (CPD), oferint serveis d'allotjament (*hosting*) i infraestructura a empreses externes.
+<p align="center">
+  <img alt="Empresa" src="https://img.shields.io/badge/Aitex_Datacenter-1F3A5F?style=for-the-badge">
+  <img alt="Ubicació" src="https://img.shields.io/badge/Ubicaci%C3%B3-Alcoi_(Alacant)-B23A48?style=for-the-badge">
+  <img alt="Sector" src="https://img.shields.io/badge/Sector-TIC_(CPD)-2E7D6B?style=for-the-badge">
+  <img alt="Servidors" src="https://img.shields.io/badge/Servidors-320-D97706?style=for-the-badge">
+</p>
 
----
-
-## 2. Oferta i Públic
-* **Productes o serveis que ofereix:**
-  S'ofereixen diferents plans mensuals de lloguer d'infraestructura adaptats a les necessitats de processament i emmagatzematge:
-  * **Half-Server:** Lloguer del 50% dels recursos d'un servidor físic (ideal per a virtualització de serveis lleugers i pimes).
-  * **Full-Server:** Lloguer d'un servidor complet (dedicat), garantint el màxim rendiment, amplada de banda i privacitat total per a bases de dades complexes.
-* **Tipus de clients als quals es dirigeix:**
-  Sector **B2B** (Business-to-Business). Es dirigeix tant a xicotetes com a grans empreses que necessiten externalitzar la seua infraestructura IT per mantindre les seues bases de dades i aplicacions en un entorn segur, accessible 24/7 i sense haver d'invertir en maquinari propi.
+<p align="center"><em>Centre de Processament de Dades (CPD) especialitzat en serveis d'allotjament (hosting) i infraestructura IT d'alta disponibilitat per a empreses.</em></p>
 
 ---
 
-## 3. Dimensió i Negoci
-* **Grandària de l'empresa i nombre aproximat de treballadors:**
-  Es tracta d'una **empresa mitjana**. Compta amb unes instal·lacions de 5 plantes en un edifici construït específicament per a aquest fi. 4 de les plantes funcionen com a sales blanques albergant un total de **320 servidors**. 
-  L'empresa disposa d'una plantilla de **16 treballadors** altament qualificats (administradors de sistemes, tècnics de xarxes, experts en ciberseguretat i personal de manteniment).
-* **Estimació justificada del volum de negoci anual:**
-  **1.400.000 € anuals aproximadament.**
-  * *Justificació:* Assumint una ocupació mitjana del 75% dels 320 servidors, amb una quota mensual mitjana d'uns 400 € per màquina física (combinació entre clients de Half i Full-Server), s'obtindrien uns ingressos superiors al milió d'euros. Aquest volum és necessari en el sector dels CPD per poder fer front als alts costos d'energia, refrigeració contínua, manteniment de l'equipament de xarxa i els salaris del personal especialitzat.
+**Aitex (Divisió Datacenter)** és una empresa mitjana del **sector tecnològic (TIC)** ubicada a Alcoi. Exerceix com a Centre de Processament de Dades oferint solucions d'infraestructura i *hosting* 24/7 a altres empreses (**B2B**), amb una plantilla de **16 treballadors/es** altament qualificats i una capacitat de **320 servidors**.
 
 ---
 
-## 4. Estratègia
-* **Estratègia per respondre a les necessitats dels clients:**
-  * **Alta Disponibilitat (Uptime):** Ús de fonts d'alimentació redundants i generadors d'emergència per garantir que els servidors no s'apaguen mai.
-  * **Escalabilitat:** Facilitar que un client puga passar d'un "Half-Server" a un "Full-Server" de manera immediata si el seu trànsit web o volum de dades creix.
-  * **Ciberseguretat i Suport:** Monitoratge de xarxa les 24 hores del dia, mitigació d'atacs DDoS i suport tècnic directe per a l'administració dels sistemes operatius (Linux/Windows) dels clients.
+## 📋 1. Dades Generals
+
+| Concepte | Detall |
+|---|---|
+| 🏷️ **Nom comercial** | **Aitex (Divisió Datacenter)** |
+| 📍 **Ubicació de la seu** | Carrer País Valencià, 48, Alcoi (Alacant) |
+| 💻 **Sector econòmic** | Sector tecnològic (**TIC**) |
+| ⚙️ **Activitat principal** | Centre de Processament de Dades (**CPD**), serveis d'allotjament (*hosting*) i lloguer d'infraestructura a empreses externes |
 
 ---
 
-## 5. Empreses reals del sector de referència
+## 🎯 2. Oferta i Públic Objectiu
 
-### Empresa 1
-* **Nom:** Titan CPD (Múrcia)
-* **Activitat:** Centre de Processament de Dades i lloguer de servidors físics i virtuals.
-* **Principals serveis:** *Housing*, *hosting* per a empreses, sistemes de còpies de seguretat en el núvol i serveis de ciberseguretat.
-* **Enllaç web:** [https://cpdtitan.com/](https://cpdtitan.com/)
+### 📦 Plans mensuals de lloguer d'infraestructura
 
-### Empresa 2
-* **Nom:** AITEX (Alcoi)
-* **Activitat:** Tot i ser l'Associació d'Investigació de la Indústria Tèxtil, és un referent d'infraestructura d'R+D+i i serveis corporatius a la zona.
-* **Principals serveis:** Investigació aplicada per a empreses, innovació tecnològica aplicada als materials, serveis de laboratori avançat i certificació de qualitat, amb instal·lacions d'alta tecnologia i servidors propis per gestionar grans volums de dades d'assajos.
-* **Enllaç web:** [https://www.aitex.es/](https://www.aitex.es/)
+| Producte / Servei | Recursos assignats | Característiques i públic ideal |
+|---|:---:|---|
+| 🌗 **Half-Server** | **50%** d'un servidor físic | Ideal per a la virtualització de serveis lleugers i **pimes** que busquen eficiència de costos. |
+| 🌕 **Full-Server** | **100%** d'un servidor físic (Dedicat) | Màxim rendiment, amplada de banda garantida i privacitat total per a **bases de dades complexes**. |
+
+### 🤝 Tipus de clients (B2B)
+Orientat exclusivament al sector **Business-to-Business (B2B)**. Es dirigeix tant a xicotetes com a grans empreses que necessiten externalitzar la seua infraestructura IT per mantindre les seues bases de dades i aplicacions en un entorn segur, accessible **24/7** i sense haver d'invertir en maquinari propi.
+
+---
+
+## 📈 3. Dimensió i Volum de Negoci
+
+| Indicador | Xifra / Dimensió | Descripció detallada |
+|---|:---:|---|
+| 🏢 **Grandària i instal·lacions** | **Empresa mitjana** (5 plantes) | Edifici construït específicament per a aquest fi: **1 planta** d'oficines/control i **4 plantes** de sales blanques. |
+| 🖥️ **Capacitat tècnica** | **320 servidors** | Distribuïts a les 4 plantes de sales blanques d'alta seguretat i climatització contínua. |
+| 👥 **Plantilla** | **16 treballadors/es** | Administradors de sistemes, tècnics de xarxes, experts en ciberseguretat i personal de manteniment. |
+| 💶 **Volum de negoci anual** | **~1.400.000 € / any** | Basat en una ocupació mitjana del **75%** (240 servidors actius) amb una quota mitjana de **400 €/mes** per màquina física. |
+
+> [!NOTE]
+> **Justificació financera:** Aquest volum de facturació superior al milió d'euros és indispensable en el sector dels CPD per poder fer front als alts costos d'energia elèctrica, refrigeració contínua, manteniment d'equipament de xarxa i els salaris del personal tècnic especialitzat.
+
+### 📊 Estimació d'ocupació del Datacenter (320 servidors)
+
+```mermaid
+pie showData
+    title Ocupació mitjana dels servidors (75% actius)
+    "Servidors en lloguer (Full / Half-Server)" : 240
+    "Servidors disponibles / Reserva d'escalabilitat" : 80
