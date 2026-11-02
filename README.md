@@ -23,7 +23,7 @@ Benvinguts al repositori del **Projecte Intermodular d'Aitex (Divisió Datacente
 | 📍 **Ubicació de la seu** | Carrer País Valencià, 48, Alcoi (Alacant) |
 | 💻 **Sector i activitat** | Sector tecnològic (**TIC**) — Centre de Processament de Dades (**CPD**) i allotjament (*hosting*) B2B |
 | 🏢 **Instal·lacions** | Edifici exclusiu de **5 plantes** (1 planta d'oficines/control i 4 plantes de sales blanques) |
-| 👥 **Plantilla i Facturació** | **16 treballadors/es** qualificats \| Volum de negoci estimat: **~1.400.000 € / any** |
+| 👥 **Plantilla i Facturació** | **16 treballadors/es** qualificats \| Volum de negoci estimat: **1.152.000 € / any** |
 | 🔗 **Repositori GitHub** | [`joanmengualp-eng/projecte-intermodular-aitex`](https://github.com/joanmengualp-eng/projecte-intermodular-aitex.git) |
 
 ---
@@ -35,11 +35,10 @@ El projecte s'estructura en diferents blocs i tasques que abasten des de la defi
 | Tasca / Fitxer | Títol del Document | Contingut Principal | Estat |
 |---|---|---|:---:|
 | 📄 `01-definicio-empresa.md` | **Definició de l'Empresa** | Dades generals, oferta (*Half/Full-Server*), públic B2B, volum de negoci, estratègia i empreses de referència. | ✅ Completat |
-| 🧭 `02-organitzacio-interna.md` | **Organització Interna** | Distribució dels 16 treballadors en 7 departaments, llocs de treball, rols i organigrama jeràrquic. | ✅ Completat |
+| 🧭 `02-organitzacio-interna.md` | **Organització Interna** | Distribució dels 16 treballadors en departaments de CPD, llocs de treball i organigrama jeràrquic. | ✅ Completat |
 | 💻 `03-recursos-tic.md` | **Identificació dels Recursos TIC** | Inventari justificat de 18 equips d'usuari, 320 servidors de producció, 7 servidors interns, xarxa i perifèrics (RA1.g). | ✅ Completat |
 | 🌐 `04-disseny-xarxa.md` | **Disseny de la Infraestructura i Xarxa** | Topologia física i lògica del CPD, segmentació en VLANs, adreçament IP i diagrama de xarxa de les 5 plantes. | ✅ Completat |
 | 💰 `05-pressupost-implantacio.md` | **Pressupost, Seguretat i Implantació** | Valoració econòmica de maquinari/programari, polítiques de seguretat/còpies (RGPD) i desplegament de serveis. | ✅ Completat |
-| 🌐 *Bloc 2 (Pròximament)* | **Disseny de la Infraestructura** | Disseny detallat de la infraestructura, adreçament i diagrama lògic/físic de la xarxa. | ⏳ Pendent |
 
 ---
 
@@ -53,9 +52,9 @@ El projecte s'estructura en diferents blocs i tasques que abasten des de la defi
 | 🌕 **Full-Server** | **100%** d'un servidor físic | Servidor dedicat en exclusivitat amb màxim rendiment, amplada de banda i privacitat per a **bases de dades complexes**. |
 
 ### 🛡️ Pilars Estratègics del CPD
-* ⚡ **Alta Disponibilitat (*Uptime*):** Fonts d'alimentació redundants, SAIs (UPS), generadors d'emergència i arquitectura de xarxa duplicada perquè el servei no s'apague mai.
-* 🚀 **Escalabilitat Immediata:** Capacitat d'ampliar un client de *Half-Server* a *Full-Server* de manera instantània segons el creixement del seu trànsit o dades.
-* 🔒 **Ciberseguretat i Suport 24/7:** Monitoratge continu des del NOC/SOC, mitigació d'atacs DDoS perimetral i suport directe en sistemes **Linux i Windows**.
+- ⚡ **Alta Disponibilitat (*Uptime*):** Fonts d'alimentació redundants, SAIs (UPS), generadors d'emergència i arquitectura de xarxa duplicada perquè el servei no s'apague mai.
+- 🚀 **Escalabilitat Immediata:** Capacitat d'ampliar un client de *Half-Server* a *Full-Server* de manera instantània segons el creixement del seu trànsit o dades.
+- 🔒 **Ciberseguretat i Suport 24/7:** Monitoratge continu des del NOC/SOC, mitigació d'atacs DDoS perimetral i suport directe en sistemes **Linux i Windows**.
 
 ---
 
@@ -65,10 +64,10 @@ L'empresa compta amb una estructura àgil de **16 professionals** distribuïts p
 
 | Àrea / Departament | Efectius | Rols i responsabilitats clau |
 |---|:---:|---|
-| 👔 **Direcció, Administració i Comercial** | **5** 👤 | Direcció General (CEO), Administració/Finances/RRHH i captació de clients B2B / Màrqueting. |
-| 🛠️ **Sistemes, BD i Suport Tècnic** | **6** 👤 | Administració de servidors i bases de dades, gestió d'hipervisors i resolució d'incidències N1/N2. |
-| 🔒 **Xarxes, Ciberseguretat i Compliment** | **4** 👤 | Operativa NOC/SOC, vigilància de trànsit en temps real, tallafocs, mitigació DDoS i compliment normatiu (RGPD). |
-| ⚡ **Manteniment i Infraestructura Física** | **3** *(Rotació / Polivalència)* | Supervisió de climatització contínua de les 4 sales blanques, control elèctric, SAIs i grups electrògens. |
+| 👔 **Administració, Comercial i Direcció** | **3** 👤 | Direcció General (CEO), Administració/Finances/RRHH i captació de clients B2B / Màrqueting. |
+| 🛠️ **Sistemes i Suport Tècnic** | **6** 👤 | Administració d'hipervisors, sistemes operatius (Linux/Windows) i resolució d'incidències N1/N2. |
+| 🔒 **Xarxes i Ciberseguretat (NOC/SOC)** | **4** 👤 | Operativa NOC/SOC, disseny d'enrutament, vigilància de trànsit en temps real, tallafocs i mitigació DDoS. |
+| ⚡ **Manteniment i Infraestructura Física** | **3** 👤 | Supervisió de climatització contínua de les 4 sales blanques, control elèctric, SAIs i grups electrògens. |
 
 ---
 
