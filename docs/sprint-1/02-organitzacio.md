@@ -58,7 +58,7 @@ pie showData
 ## 🗂️ 3. Organigrama
 
 <p align="center">
-  <img src="../../img/organigrama.png" alt="Organigrama d'Aitex Datacenter." width="800">
+  <img src="../../img/organigrama2.png" alt="Organigrama d'Aitex Datacenter." width="800">
 </p>
 
 <p align="center">
