@@ -19,10 +19,10 @@ Per cobrir les necessitats dels **16 treballadors** en plantilla i garantir l'op
 
 | Departament | Treballadors/es | Equips de treball i funcions | Total Equips |
 |---|:---:|---|:---:|
-| 🛠️ **Departament de Sistemes i Suport Tècnic** | 6 👤👤👤👤👤👤 | • **6 Estacions de treball d'alt rendiment (PC de sobretaula):** Amb configuració de doble monitor per a l'administració simultània de sistemes operatius (Linux/Windows), gestió d'hipervisors i atenció d'incidències de clients.<br>• **2 Ordinadors portàtils tècnics (ús compartit per torns):** Necessaris per desplaçar-se físicament per les 4 plantes i connectar-se directament als servidors per a tasques de diagnòstic i configuració local. | **8** 💻 |
-| 🔒 **Departament de Xarxes i Ciberseguretat** | 4 👤👤👤👤 | • **4 Estacions de treball avançades:** Equipades amb targetes gràfiques amb suport per a múltiples pantalles per al monitoratge de trànsit en temps real, anàlisi de logs i mitigació d'atacs DDoS. | **4** 💻 |
-| ⚡ **Departament de Manteniment i Infraestructura Física** | 3 👤👤👤 | • **3 Ordinadors portàtils robustos:** Per a la supervisió en mobilitat dels sistemes de climatització contínua, control de consum elèctric, SAIs i generadors d'emergència a tot l'edifici. | **3** 💻 |
-| 💼 **Departament d'Administració, Comercial i Direcció** | 3 👤👤👤 | • **3 Ordinadors d'ofimàtica / portàtils corporatius:** Destinats a la gestió de facturació (quotes mensuals de *Half-Server* i *Full-Server*), atenció comercial B2B, recursos humans i comptabilitat. | **3** 💻 |
+| 🛠️ **Sistemes i Suport Tècnic** | 6 👤👤👤👤👤👤 | • **6 Estacions de treball d'alt rendiment (PC de sobretaula):** Amb configuració de doble monitor per a l'administració simultània de sistemes operatius (Linux/Windows), gestió d'hipervisors i atenció d'incidències de clients.<br>• **2 Ordinadors portàtils tècnics (ús compartit per torns):** Necessaris per desplaçar-se físicament per les 4 plantes i connectar-se directament als servidors per a tasques de diagnòstic i configuració local. | **8** 💻 |
+| 🔒 **Xarxes i Ciberseguretat (NOC/SOC)** | 4 👤👤👤👤 | • **4 Estacions de treball avançades:** Equipades amb targetes gràfiques amb suport per a múltiples pantalles per al monitoratge de trànsit en temps real, anàlisi de logs i mitigació d'atacs DDoS. | **4** 💻 |
+| ⚡ **Manteniment i Infraestructura Física** | 3 👤👤👤 | • **3 Ordinadors portàtils robustos:** Per a la supervisió en mobilitat dels sistemes de climatització contínua, control de consum elèctric, SAIs i generadors d'emergència a tot l'edifici. | **3** 💻 |
+| 👔 **Administració, Comercial i Direcció** | 3 👤👤👤 | • **3 Ordinadors d'ofimàtica / portàtils corporatius:** Destinats a la gestió de facturació (quotes mensuals de *Half-Server* i *Full-Server*), atenció comercial B2B, recursos humans i comptabilitat. | **3** 💻 |
 | | **Total: 16** | **Total d'equips d'usuari: 13 PCs de sobretaula i 5 portàtils** | **18** |
 
 ### 📊 Distribució dels equips d'usuari per departament
