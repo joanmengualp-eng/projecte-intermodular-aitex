@@ -1,16 +1,16 @@
 <h1 align="center">🏢 Organització interna de l'empresa</h1>
 
 <p align="center">
-  <img alt="Empresa" src="https://img.shields.io/badge/Aitex Datacenter%2C_-1F3A5F?style=for-the-badge">
+  <img alt="Empresa" src="https://img.shields.io/badge/Aitex_Datacenter-1F3A5F?style=for-the-badge">
   <img alt="Ubicació" src="https://img.shields.io/badge/Ubicaci%C3%B3-Alcoi-B23A48?style=for-the-badge">
   <img alt="Treballadors" src="https://img.shields.io/badge/Treballadors-16-2E7D6B?style=for-the-badge">
 </p>
 
-<p align="center"><em>Dissenyem, instal·lem i mantenim bases de dades per a pimes i empreses mitjanes.</em></p>
+<p align="center"><em>Proveïm infraestructura d'alta disponibilitat, allotjament de servidors físics i monitoratge 24/7 per a empreses (B2B).</em></p>
 
 ---
 
-**Aitex Datacenter** és una empresa d'Alcoi amb **16 treballadors/es** i una estructura senzilla: la Direcció General dirigeix sis departaments més, i moltes persones fan més d'una funció.
+**Aitex Datacenter** és una empresa d'Alcoi amb **16 treballadors/es** i una estructura dissenyada per garantir l'operativa contínua d'un Centre de Processament de Dades. L'equip s'organitza en quatre grans àrees que depenen directament de la Direcció General.
 
 ---
 
@@ -18,13 +18,10 @@
 
 | Departament | Què fa | Treballadors/es |
 |---|---|:---:|
-| 👔 **Direcció General** | Dirigeix l'empresa i pren les decisions importants | 1 👤 |
-| 🔒 **Seguretat i Compliment** | Protegeix la informació i vetla perquè es complisquen les lleis (com el RGPD) | 1 👤 |
-| 💼 **Administració, Finances i RRHH** | Porta els comptes, les factures, les compres i el personal | 2 👤👤 |
-| 📣 **Comercial i Màrqueting** | Busca clients, fa ofertes i dona a conéixer l'empresa | 2 👤👤 |
-| 🛠️ **Consultoria i Desenvolupament de BD** | Dissenya i crea les bases de dades que necessiten els clients | 4 👤👤👤👤 |
-| 🖥️ **Operacions i Administració de BD** | Fa funcionar i vigila les bases de dades i els servidors | 4 👤👤👤👤 |
-| 🎧 **Suport Tècnic i Atenció al Client** | Resol els dubtes i els problemes dels clients | 2 👤👤 |
+| 👔 **Administració, Comercial i Direcció** | Dirigeix l'empresa, porta els comptes, busca clients B2B i gestiona el personal. | 3 👤👤👤 |
+| 🛠️ **Sistemes i Suport Tècnic** | Administra els hipervisors, els sistemes operatius i atén les incidències dels clients. | 6 👤👤👤👤👤👤 |
+| 🔒 **Xarxes i Ciberseguretat (NOC/SOC)** | Gestiona l'enrutament de la xarxa, mitiga atacs DDoS i vigila el trànsit en temps real. | 4 👤👤👤👤 |
+| ⚡ **Manteniment i Infraestructura** | Controla el maquinari físic, la climatització contínua, l'electricitat i els generadors. | 3 👤👤👤 |
 | | **Total** | **16** |
 
 ### 📊 Distribució de la plantilla
@@ -32,13 +29,10 @@
 ```mermaid
 pie showData
     title Treballadors per departament
-    "Consultoria i Desenvolupament de BD" : 4
-    "Operacions i Administració de BD" : 4
-    "Administració, Finances i RRHH" : 2
-    "Comercial i Màrqueting" : 2
-    "Suport Tècnic i Atenció al Client" : 2
-    "Direcció General" : 1
-    "Seguretat i Compliment" : 1
+    "Sistemes i Suport Tècnic" : 6
+    "Xarxes i Ciberseguretat (NOC/SOC)" : 4
+    "Manteniment i Infraestructura" : 3
+    "Administració, Comercial i Direcció" : 3
 ```
 
 ---
@@ -47,33 +41,29 @@ pie showData
 
 | Lloc de treball | Departament | Nre. | Funcions principals |
 |---|---|:---:|---|
-| **Director/a general (CEO)** | 👔 Direcció General | 1 | Decidir l'estratègia, dirigir l'empresa i tractar amb els clients importants |
-| **Responsable de seguretat i compliment** | 🔒 Seguretat i Compliment | 1 | Protegir les dades, controlar els riscos i complir la llei de protecció de dades |
-| **Responsable d'administració, finances i RRHH** | 💼 Administració, Finances i RRHH | 1 | Controlar els diners, les compres i el personal |
-| **Administratiu/va** | 💼 Administració, Finances i RRHH | 1 | Fer factures, atendre la recepció i ordenar documents |
-| **Responsable comercial i de màrqueting** | 📣 Comercial i Màrqueting | 1 | Preparar les vendes, negociar contractes i planificar la comunicació |
-| **Executiu/va de comptes i màrqueting digital** | 📣 Comercial i Màrqueting | 1 | Atendre clients, fer ofertes i portar la web i les xarxes socials |
-| **Cap de projectes** | 🛠️ Consultoria i Desenvolupament de BD | 1 | Planificar els projectes i parlar amb el client |
-| **Arquitecte/a de dades** | 🛠️ Consultoria i Desenvolupament de BD | 1 | Dissenyar com s'organitzen les dades |
-| **Desenvolupador/a de BD** | 🛠️ Consultoria i Desenvolupament de BD | 1 | Programar consultes i procediments de bases de dades |
-| **Analista ETL i BI** | 🛠️ Consultoria i Desenvolupament de BD | 1 | Preparar i netejar dades i fer-ne informes i gràfics |
-| **Cap d'operacions** | 🖥️ Operacions i Administració de BD | 1 | Coordinar l'equip i organitzar les guàrdies |
-| **Administrador/a de bases de dades (DBA)** | 🖥️ Operacions i Administració de BD | 2 | Instal·lar i vigilar les bases de dades i fer-ne còpies de seguretat |
-| **Enginyer/a cloud, DevOps i sistemes** | 🖥️ Operacions i Administració de BD | 1 | Automatitzar tasques i gestionar els servidors i els serveis al núvol |
-| **Responsable de suport tècnic** | 🎧 Suport Tècnic i Atenció al Client | 1 | Coordinar el servei i resoldre els problemes més difícils |
-| **Tècnic/a de suport N1/N2** | 🎧 Suport Tècnic i Atenció al Client | 1 | Atendre les incidències i consultes dels clients (primer i segon nivell) |
+| **Director/a general (CEO)** | 👔 Administració, Comercial i Dir. | 1 | Decidir l'estratègia del Datacenter i tancar contractes clau. |
+| **Responsable d'Administració i RRHH** | 👔 Administració, Comercial i Dir. | 1 | Fer factures, gestionar l'equip i controlar les compres de maquinari. |
+| **Comercial B2B i Màrqueting** | 👔 Administració, Comercial i Dir. | 1 | Vendre els plans *Half-Server* i *Full-Server* i portar la comunicació. |
+| **Cap de Sistemes** | 🛠️ Sistemes i Suport Tècnic | 1 | Coordinar l'equip d'administradors de sistemes i planificar escalabilitat. |
+| **Administrador/a de Sistemes (Sysadmin)** | 🛠️ Sistemes i Suport Tècnic | 3 | Gestionar els hipervisors (Proxmox/VMware), Linux/Windows i còpies. |
+| **Tècnic/a de Suport N1/N2** | 🛠️ Sistemes i Suport Tècnic | 2 | Atendre els tiquets dels clients 24/7 i resoldre incidències tècniques. |
+| **Cap de Xarxes i Ciberseguretat** | 🔒 Xarxes i Ciberseguretat | 1 | Dissenyar l'arquitectura de xarxa de les 5 plantes i establir polítiques. |
+| **Enginyer/a de Xarxes (NOC)** | 🔒 Xarxes i Ciberseguretat | 2 | Configurar routers/switches, cablatge estructurat i monitorar el trànsit. |
+| **Analista de Ciberseguretat (SOC)** | 🔒 Xarxes i Ciberseguretat | 1 | Vigilar el Videowall, aplicar tallafocs i mitigar atacs DDoS. |
+| **Cap de Manteniment i Infraestructura** | ⚡ Manteniment i Infraestructura | 1 | Supervisar el funcionament físic de les 4 sales blanques. |
+| **Tècnic/a d'Infraestructura** | ⚡ Manteniment i Infraestructura | 2 | Mantenir la climatització, SAIs, generadors d'emergència i canviar discos físics. |
 
 ---
 
 ## 🗂️ 3. Organigrama
 
 <p align="center">
-  <img src="../../img/organigrama.png" alt="Organigrama de Aitex Datacenter." width="800">
+  <img src="../../img/organigrama.png" alt="Organigrama d'Aitex Datacenter." width="800">
 </p>
 
 <p align="center">
-  <em>Figura 1. Organigrama de l'empresa.</em>
+  <em>Figura 1. Organigrama d'Aitex Datacenter. (Anota d'actualitzar la imatge per eliminar la referència a Mariola Data Solutions).</em>
 </p>
 
 > [!NOTE]
-> La **línia contínua** indica que el departament depén de la Direcció General. La **línia discontínua** indica que Seguretat i Compliment només assessora.
+> La **línia contínua** al gràfic indica que els departaments operatius depenen directament de la Direcció General per garantir una presa de decisions ràpida en entorns d'Alta Disponibilitat (24/7).
