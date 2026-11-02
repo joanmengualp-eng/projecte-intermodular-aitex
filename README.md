@@ -40,6 +40,21 @@ El projecte s'estructura en diferents blocs i tasques que abasten des de la defi
 | 🌐 `04-disseny-xarxa.md` | **Disseny de la Infraestructura i Xarxa** | Topologia física i lògica del CPD, segmentació en VLANs, adreçament IP i diagrama de xarxa de les 5 plantes. | ✅ Completat |
 | 💰 `05-pressupost-implantacio.md` | **Pressupost, Seguretat i Implantació** | Valoració econòmica de maquinari/programari, polítiques de seguretat/còpies (RGPD) i desplegament de serveis. | ✅ Completat |
 
+
+## 📂 2.1 Estructura del Repositori: SPRINT 1 - BLOC 2 (Disseny i Planificació)
+
+En aquest segon bloc es detalla la solució tècnica, el disseny de la xarxa i el pressupost necessari per implementar la infraestructura del CPD:
+
+| Tasca / Fitxer | Títol del Document | Contingut Principal | Estat |
+|---|---|---|:---:|
+| 🎯 `01-necessitats.md` | **Identificació de Necessitats TIC** | Anàlisi de les necessitats per departament (connectivitat, seguretat, DMZ, accés remot). | ✅ Completat |
+| ⚖️ `02-alternatives-viabilitat.md` | **Alternatives i Viabilitat** | Estudi de SDN vs Xarxa Tradicional, aspectes innovadors i viabilitat tècnica/econòmica. | ✅ Completat |
+| 🌐 `03-disseny-xarxa.md` | **Disseny de la Infraestructura** | Diagrama de xarxa, DMZ, xarxa interna i explicació de l'arquitectura de comunicacions. | ⏳ Pendent |
+| 🗺️ `04-adrecament-ip.md` | **Pla d'Adreçament IP** | Taula de subxarxes (VLANs), IPs, màscares i passarel·les sense solapaments. | ⏳ Pendent |
+| 📦 `05-recursos.md` | **Selecció de Recursos** | Maquinari/programari detallat per a la implantació i perfils de l'equip de desplegament. | ⏳ Pendent |
+| 💰 `06-pressupost.md` | **Pressupost Econòmic** | Costos reals, llicències, IVA i justificació de la inversió en base als recursos de la tasca 5. | ⏳ Pendent |
+| 📅 `07-planificacio.md` | **Organització Scrum i Trello** | Fases del projecte (anàlisi, disseny, implantació) i captura del tauler Kanban. | ⏳ Pendent |
+
 ---
 
 ## 🎯 3. Catàleg de Serveis i Estratègia Operativa
