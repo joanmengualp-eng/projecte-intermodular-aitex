@@ -47,7 +47,7 @@ Orientat exclusivament al sector **Business-to-Business (B2B)**. Es dirigeix tan
 | 🏢 **Grandària i instal·lacions** | **Empresa mitjana** (5 plantes) | Edifici construït específicament per a aquest fi: **1 planta** d'oficines/control i **4 plantes** de sales blanques. |
 | 🖥️ **Capacitat tècnica** | **320 servidors** | Distribuïts a les 4 plantes de sales blanques d'alta seguretat i climatització contínua. |
 | 👥 **Plantilla** | **16 treballadors/es** | Administradors de sistemes, tècnics de xarxes, experts en ciberseguretat i personal de manteniment. |
-| 💶 **Volum de negoci anual** | **~1.400.000 € / any** | Basat en una ocupació mitjana del **75%** (240 servidors actius) amb una quota mitjana de **400 €/mes** per màquina física. |
+| 💶 **Volum de negoci anual** | **1.152.000 € / any** | Basat en una ocupació mitjana del **75%** (240 servidors actius) amb una quota mitjana de **400 €/mes** per màquina física. |
 
 > [!NOTE]
 > **Justificació financera:** Aquest volum de facturació superior al milió d'euros és indispensable en el sector dels CPD per poder fer front als alts costos d'energia elèctrica, refrigeració contínua, manteniment d'equipament de xarxa i els salaris del personal tècnic especialitzat.
