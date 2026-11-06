@@ -1,71 +1,57 @@
-<h1 align="center">🖥️ Tasca 4. Relació de maquinari i programari</h1>
+<h1 align="center">🖥️ Relació de maquinari i programari</h1>
 
 <p align="center">
   <img alt="Empresa" src="https://img.shields.io/badge/Empresa-Aitex_Datacenter-1F3A5F?style=for-the-badge">
   <img alt="Plantilla" src="https://img.shields.io/badge/Plantilla-16_persones-2E7D6B?style=for-the-badge">
-  <img alt="Ordinadors" src="https://img.shields.io/badge/Ordinadors-16-3B7DD8?style=for-the-badge">
+  <img alt="Equips d'usuari" src="https://img.shields.io/badge/Equips_usuari-18-3B7DD8?style=for-the-badge">
+  <img alt="Servidors" src="https://img.shields.io/badge/Servidors-327-D97706?style=for-the-badge">
 </p>
 
-Aquests són els principals recursos d'**Aitex Datacenter**. Els recursos que usa tota la plantilla apareixen com a «Tots els departaments».
+Aquests són els principals recursos d'**Aitex Datacenter** necessaris per mantenir la infraestructura del Centre de Processament de Dades (CPD). Els recursos transversals apareixen com a «Tots els departaments».
 
 > [!TIP]
-> **Llegenda:** 🧩 programari · ☁️ servei al núvol · la resta d'icones indiquen maquinari.
+> **Llegenda:** 🧩 programari · ☁️ servei al núvol · la resta d'icones indiquen maquinari físic.
 
 ---
 
-## 📋 Taula de recursos
+## 📋 Taula de recursos (Maquinari i Programari)
 
-| Recurs | Departament | Quantitat | Funció |
+| Recurs | Departament / Àrea | Quantitat | Funció principal |
 |---|---|:---:|---|
-| 💻 Ordinador portàtil | Direcció General | 1 | Treball diari, reunions i viatges |
-| 💻 Ordinador portàtil | Seguretat i Compliment | 1 | Revisar la seguretat i el compliment de les normes |
-| 🧩 Programari de seguretat i protecció de dades | Seguretat i Compliment | 1 | Detectar riscos i controlar el compliment del RGPD |
-| 🖥️ Ordinador de sobretaula | Administració, Finances i RRHH | 2 | Tasques administratives i comptables |
-| 🖨️ Impressora de xarxa | Administració, Finances i RRHH | 1 | Imprimir, copiar i escanejar documents |
-| ☎️ Telèfon IP | Administració, Finances i RRHH | 1 | Atendre trucades i la recepció |
-| 🧩 Programari de gestió (comptabilitat, factures i personal) | Administració, Finances i RRHH | 3 | Portar els comptes, les factures i les vacances del personal |
-| 💻 Ordinador portàtil | Comercial i Màrqueting | 2 | Treball comercial i presentacions als clients |
-| 📱 Telèfon mòbil | Comercial i Màrqueting | 2 | Parlar amb els clients |
-| 🧩 Programari CRM (gestió de clients) | Comercial i Màrqueting | 2 | Guardar les dades dels clients i seguir les vendes |
-| 🧩 Programari de disseny i màrqueting digital | Comercial i Màrqueting | 1 | Crear materials, campanyes i publicacions per a xarxes socials |
-| 🖥️ Estació de treball (ordinador potent) | Consultoria i Desenvolupament de BD | 4 | Dissenyar i programar bases de dades |
-| 🖥️ Monitor | Consultoria i Desenvolupament de BD | 8 | Dues pantalles per persona |
-| 🗄️ Servidor de proves | Consultoria i Desenvolupament de BD | 1 | Provar les solucions abans d'entregar-les al client |
-| 🧩 Programari de dades (modelatge, SQL, ETL i BI) | Consultoria i Desenvolupament de BD | 4 | Dissenyar models de dades, fer consultes i crear informes |
-| 🧩 Programari de gestió de projectes | Consultoria i Desenvolupament de BD | 4 | Organitzar les tasques i els terminis |
-| 💻 Ordinador portàtil | Operacions i Administració de BD | 4 | Administrar sistemes i atendre les guàrdies |
-| 🖥️ Monitor | Operacions i Administració de BD | 8 | Dues pantalles per persona |
-| 📱 Telèfon mòbil de guàrdia | Operacions i Administració de BD | 1 | Rebre avisos d'error fora de l'horari laboral |
-| 🗄️ Servidor | Operacions i Administració de BD | 2 | Allotjar les bases de dades dels clients |
-| 💾 Emmagatzematge en xarxa (NAS) | Operacions i Administració de BD | 2 | Guardar dades i còpies de seguretat |
-| 🔌 Armari rack, SAI i climatització de la sala de servidors | Operacions i Administració de BD | 1 | Ordenar els servidors, evitar apagades i mantindre'ls frescos (conjunt) |
-| 🛡️ Tallafocs | Operacions i Administració de BD | 2 | Protegir la xarxa dels atacs |
-| 📡 Router | Operacions i Administració de BD | 2 | Connectar-se a Internet (dues línies, per si una falla) |
-| 📶 Switch i punts d'accés Wi-Fi | Operacions i Administració de BD | 5 | Xarxa de l'oficina amb cable i sense (3 switchs i 2 punts Wi-Fi) |
-| 🧩 Sistema operatiu i virtualització per a servidors | Operacions i Administració de BD | 5 | Fer funcionar els servidors i crear màquines virtuals |
-| 🧩 Sistema gestor de bases de dades (SGBD) | Operacions i Administració de BD | 4 | Guardar i gestionar les bases de dades dels clients |
-| 🧩 Programari de monitoratge | Operacions i Administració de BD | 1 | Vigilar els sistemes i avisar si hi ha errors |
-| 🧩 Programari de còpies de seguretat | Operacions i Administració de BD | 1 | Fer còpies i recuperar les dades si hi ha un problema |
-| 🧩 Eines d'automatització (DevOps) | Operacions i Administració de BD | 1 | Automatitzar tasques i instal·lacions |
-| ☁️ Serveis al núvol | Operacions i Administració de BD | 1 | Ampliar capacitat i guardar còpies fora de l'oficina |
-| 🖥️ Ordinador de sobretaula | Suport Tècnic i Atenció al Client | 2 | Atendre les incidències dels clients |
-| 🎧 Telèfon IP amb auriculars | Suport Tècnic i Atenció al Client | 2 | Atendre les trucades dels clients |
-| 🧩 Programari de tíquets | Suport Tècnic i Atenció al Client | 2 | Registrar i seguir les incidències |
-| 🧩 Programari d'accés remot | Suport Tècnic i Atenció al Client | 2 | Connectar-se als equips dels clients per a ajudar-los |
-| 🧩 Sistema operatiu d'ordinador | Tots els departaments | 16 | Fer funcionar els ordinadors |
-| 🧩 Programari ofimàtic | Tots els departaments | 16 | Documents, fulls de càlcul i presentacions |
-| 🧩 Correu i videotrucades | Tots els departaments | 16 | Comunicació interna i amb els clients |
-| 🧩 Antivirus | Tots els departaments | 16 | Protegir els ordinadors |
-| 📽️ Pantalla o projector de la sala de reunions | Tots els departaments | 1 | Reunions i presentacions |
+| 💻 Ordinador d'ofimàtica / portàtil | Administració, Comercial i Dir. | 3 | Gestió comercial B2B, comptabilitat i direcció |
+| 🖨️ Impressora multifunció làser | Administració, Comercial i Dir. | 1 | Imprimir contractes B2B i documentació legal |
+| 🧩 Programari ERP, CRM i Facturació | Administració, Comercial i Dir. | 3 | Portar la facturació dels plans *Half/Full-Server* i seguiment de clients |
+| 🖥️ Estació de treball d'alt rendiment | Sistemes i Suport Tècnic | 6 | Administració de sistemes operatius i hipervisors (doble monitor) |
+| 💻 Ordinador portàtil tècnic | Sistemes i Suport Tècnic | 2 | Mobilitat per les 4 plantes de sales blanques per diagnòstic directe |
+| 🗄️ Servidors Rack de Producció | Sistemes i Suport Tècnic | 320 | Maquinari dedicat per allotjar els serveis dels clients (*Half/Full-Server*) |
+| 🗄️ Servidors d'ús intern (AD, Backups) | Sistemes i Suport Tècnic | 7 | Gestió del domini, portal de clients i còpies de seguretat internes |
+| 🧩 Hipervisors de virtualització | Sistemes i Suport Tècnic | 320 | Programari (Proxmox/VMware) per segmentar els servidors físics |
+| 🧩 Programari de Tíquets i Suport | Sistemes i Suport Tècnic | 6 | Registrar i atendre les incidències dels clients 24/7 |
+| 🖥️ Estació de treball avançada (SOC) | Xarxes i Ciberseguretat | 4 | Targetes gràfiques multipantalla per a l'anàlisi de trànsit i logs |
+| 📺 Videowall (Pantalles de 55") | Xarxes i Ciberseguretat | 4 | Monitoratge visual permanent del trànsit i seguretat a la sala NOC |
+| 🌍 Routers de vora d'alta capacitat | Xarxes i Ciberseguretat | 2 | Connexió a Internet BGP redundant amb múltiples proveïdors (ISP) |
+| 🛡️ Tallafocs físics (Anti-DDoS) | Xarxes i Ciberseguretat | 2 | Filtrar trànsit maliciós i protegir el perímetre de xarxa |
+| ⚡ Switches *Core* i d'Accés | Xarxes i Ciberseguretat | 36 | 2 Nucli + 32 Accés Sales Blanques + 2 Accés Oficina (PoE) |
+| 📶 Punts d'accés Wi-Fi | Xarxes i Ciberseguretat | 6 | Cobertura de xarxa per als tècnics a les 5 plantes |
+| 🧩 Programari SIEM i Monitoratge xarxa | Xarxes i Ciberseguretat | 4 | Detecció d'intrusions (IDS) i alertes de caiguda de nodes en temps real |
+| 💻 Ordinador portàtil robust (*rugged*) | Manteniment i Infraestructura | 3 | Supervisió física de maquinari en entorns freds i sorollosos |
+| 🏷️ Impressora tèrmica d'etiquetes | Manteniment i Infraestructura | 2 | Etiquetar els 320 servidors, cablatge i discs durs |
+| 🔌 SAIs (UPS) i Generadors elèctrics | Manteniment i Infraestructura | *Infra.* | Evitar apagades als servidors (Alta Disponibilitat) |
+| ❄️ Sistemes de climatització | Manteniment i Infraestructura | *Infra.* | Refrigeració contínua a les 4 plantes de sales blanques |
+| 🧩 Programari BMS (Building Mngmt.) | Manteniment i Infraestructura | 3 | Monitorar la temperatura de les sales i el consum elèctric dels *racks* |
+| ☎️ Telèfon IP amb auriculars | Tots els departaments | 16 | Comunicació interna i atenció de suport (PoE) |
+| 🧩 Sistema operatiu d'ordinador | Tots els departaments | 18 | Llicències Windows/Linux per als equips de la plantilla |
+| 🧩 Programari ofimàtic i correu | Tots els departaments | 16 | Eines ofimàtiques i comunicació corporativa |
+| 🧩 Antivirus corporatiu (Endpoints) | Tots els departaments | 18 | Protecció dels 18 ordinadors d'usuari |
 
 ---
 
 ## 📝 Observacions
 
 > [!NOTE]
-> - En el **maquinari**, la quantitat és el nombre d'unitats. En el **programari**, és el nombre de llicències, instàncies o subscripcions.
-> - Hi ha **16 ordinadors**, un per persona: 4 de sobretaula (amb pantalla), 4 estacions de treball i 8 portàtils.
-> - No s'inclouen perifèrics, cablejat ni mobiliari.
+> - En el **maquinari**, la quantitat reflecteix el nombre d'unitats físiques. En el **programari**, indica el nombre de llicències, subscripcions o nodes administrats.
+> - Hi ha **18 equips d'usuari** per als 16 treballadors: 13 ordinadors de sobretaula/estacions fixes i 5 portàtils compartits per a les guàrdies i el moviment físic per les 5 plantes del recinte.
+> - La infraestructura central es compon de **327 servidors físics** (320 per a clients B2B i 7 d'ús intern i monitoratge).
 
 > [!IMPORTANT]
-> Les marques, els models i els preus es concretaran en el **Bloc 2**.
+> Aquesta relació identifica els elements requerits a nivell general. L'arquitectura de xarxa detallada, adreçament IP i els diagrames lògics es desenvoluparan en el **Bloc 2**.
