@@ -3,6 +3,7 @@
 <p align="center">
   <img alt="Fase" src="https://img.shields.io/badge/Fase-Disseny_T%C3%A8cnic-D97706?style=for-the-badge">
   <img alt="Projecte" src="https://img.shields.io/badge/Projecte-Aitex_Datacenter-2E7D6B?style=for-the-badge">
+  <img alt="CE" src="https://img.shields.io/badge/Criteris_Avaluaci%C3%B3-RA2.c_·_RA2.e_·_RA2.i-2E7D6B?style=for-the-badge">
 </p>
 
 Aquest document defineix l'arquitectura de xarxa d'Aitex Datacenter, dissenyada per suportar l'operativa de 320 servidors de producció i garantir la continuïtat de negoci (Uptime) mitjançant redundància i segmentació estricta.
@@ -57,8 +58,16 @@ graph TD
     class SRV_PROD server;
 ```
 
+<p align="center">
+  <img src="../../img/diagrama-xarxa.png" alt="Arquitectura i Topologia de Xarxa d'Aitex Datacenter" width="1000">
+</p>
+
+<p align="center">
+  <em>Figura 2. Arquitectura de xarxa d'alta disponibilitat d'Aitex Datacenter: Enllaços BGP redundants, clúster de tallafocs NGFW, nucli de commutació 10G/40G, zona DMZ aïllada i xarxes de producció ToR per a les 4 sales blanques.</em>
+</p>
+
 > [!TIP]
-> *Nota: L'esquema físic detallat amb l'adreçament IP específic es documenta a la Tasca 4, i la imatge vectorial (Draw.io/Packet Tracer) es troba adjunta a la carpeta `/img/diagrama-xarxa.png`.*
+> *L'esquema lògic interactiu (Mermaid) es manté com a suport addicional a continuació, i el pla detallat d'adreçament IP i paràmetres de xarxa per a cada component es troba a la Tasca 4 ([`04-adrecament-ip.md`](04-adrecament-ip.md)).*
 
 ---
 

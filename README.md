@@ -32,28 +32,31 @@ Benvinguts al repositori del **Projecte Intermodular d'Aitex (Divisió Datacente
 
 El projecte s'estructura en diferents blocs i tasques que abasten des de la definició del model de negoci fins al disseny de la infraestructura tecnològica:
 
-| Tasca / Fitxer | Títol del Document | Contingut Principal | Estat |
-|---|---|---|:---:|
-| 📄 `01-definicio-empresa.md` | **Definició de l'Empresa** | Dades generals, oferta (*Half/Full-Server*), públic B2B, volum de negoci, estratègia i empreses de referència. | ✅ Completat |
-| 🧭 `02-organitzacio-interna.md` | **Organització Interna** | Distribució dels 16 treballadors en departaments de CPD, llocs de treball i organigrama jeràrquic. | ✅ Completat |
-| 💻 `03-recursos-tic.md` | **Identificació dels Recursos TIC** | Inventari justificat de 18 equips d'usuari, 320 servidors de producció, 7 servidors interns, xarxa i perifèrics (RA1.g). | ✅ Completat |
-| 🌐 `04-disseny-xarxa.md` | **Disseny de la Infraestructura i Xarxa** | Topologia física i lògica del CPD, segmentació en VLANs, adreçament IP i diagrama de xarxa de les 5 plantes. | ✅ Completat |
-| 💰 `05-pressupost-implantacio.md` | **Pressupost, Seguretat i Implantació** | Valoració econòmica de maquinari/programari, polítiques de seguretat/còpies (RGPD) i desplegament de serveis. | ✅ Completat |
-
-
-## 📂 2.1 Estructura del Repositori: SPRINT 1 - BLOC 2 (Disseny i Planificació)
-
-En aquest segon bloc es detalla la solució tècnica, el disseny de la xarxa i el pressupost necessari per implementar la infraestructura del CPD:
+### 📂 2.1 SPRINT 1 - BLOC 1: Definició i Recursos TIC
 
 | Tasca / Fitxer | Títol del Document | Contingut Principal | Estat |
 |---|---|---|:---:|
-| 🎯 `01-necessitats.md` | **Identificació de Necessitats TIC** | Anàlisi de les necessitats per departament (connectivitat, seguretat, DMZ, accés remot). | ✅ Completat |
-| ⚖️ `02-alternatives-viabilitat.md` | **Alternatives i Viabilitat** | Estudi de SDN vs Xarxa Tradicional, aspectes innovadors i viabilitat tècnica/econòmica. | ✅ Completat |
-| 🌐 `03-disseny-xarxa.md` | **Disseny de la Infraestructura** | Diagrama de xarxa, DMZ, xarxa interna i explicació de l'arquitectura de comunicacions. | ⏳ Pendent |
-| 🗺️ `04-adrecament-ip.md` | **Pla d'Adreçament IP** | Taula de subxarxes (VLANs), IPs, màscares i passarel·les sense solapaments. | ⏳ Pendent |
-| 📦 `05-recursos.md` | **Selecció de Recursos** | Maquinari/programari detallat per a la implantació i perfils de l'equip de desplegament. | ⏳ Pendent |
-| 💰 `06-pressupost.md` | **Pressupost Econòmic** | Costos reals, llicències, IVA i justificació de la inversió en base als recursos de la tasca 5. | ⏳ Pendent |
-| 📅 `07-planificacio.md` | **Organització Scrum i Trello** | Fases del projecte (anàlisi, disseny, implantació) i captura del tauler Kanban. | ⏳ Pendent |
+| 📄 [`01-empresa.md`](docs/sprint-1/01-empresa.md) | **Definició de l'Empresa** | Dades generals, oferta (*Half/Full-Server*), públic B2B, volum de negoci, estratègia i empreses de referència. | ✅ Completat |
+| 🧭 [`02-organitzacio.md`](docs/sprint-1/02-organitzacio.md) | **Organització Interna** | Distribució dels 16 treballadors en departaments de CPD, llocs de treball i organigrama jeràrquic. | ✅ Completat |
+| 💻 [`03-recursos-tic.md`](docs/sprint-1/03-recursos-tic.md) | **Identificació dels Recursos TIC** | Inventari justificat de 18 equips d'usuari, 320 servidors de producció, 7 servidors interns, xarxa i perifèrics (RA1.g). | ✅ Completat |
+| 🖥️ [`04-maquinari-programari.md`](docs/sprint-1/04-maquinari-programari.md) | **Relació de Maquinari i Programari** | Relació creuada d'equips físics, sistemes operatius, aplicacions de gestió i tipus de llicenciament. | ✅ Completat |
+| 🌍 [`05-ods.md`](docs/sprint-1/05-ods.md) | **Contribució als ODS** | Alineació de la sostenibilitat del CPD amb els Objectius de Desenvolupament Sostenible (ODS 8, 9, 12 i 13). | ✅ Completat |
+
+---
+
+### 📂 2.2 SPRINT 1 - BLOC 2: Disseny, Infraestructura i Planificació
+
+En aquest segon bloc es detalla la solució tècnica, el disseny de la xarxa, el pla d'adreçament IP, la valoració econòmica i la planificació Scrum/Trello del CPD:
+
+| Tasca / Fitxer | Títol del Document | Contingut Principal | Estat |
+|---|---|---|:---:|
+| 🎯 [`01-necessitats.md`](docs/sprint-1/bloc-2/01-necessitats.md) | **Identificació de Necessitats TIC** | Anàlisi de necessitats per departament (connectivitat, seguretat, DMZ, impressió, comptes, web). | ✅ Completat |
+| ⚖️ [`02-alternatives-viabilitat.md`](docs/sprint-1/bloc-2/02-alternatives-viabilitat.md) | **Alternatives i Viabilitat** | Estudi comparatiu de xarxa (Coure vs ToR Fibra 10G), aspecte innovador i viabilitat 4D. | ✅ Completat |
+| 🌐 [`03-disseny-xarxa.md`](docs/sprint-1/bloc-2/03-disseny-xarxa.md) | **Disseny de la Infraestructura** | Topologia jeràrquica en Mermaid, DMZ, eliminació de SPOF i arquitectura de comunicacions. | ✅ Completat |
+| 🗺️ [`04-adrecament-ip.md`](docs/sprint-1/bloc-2/04-adrecament-ip.md) | **Pla d'Adreçament IP i Noms** | Pla jeràrquic de VLANs, estàndard FQDN, IPs/passarel·les, DMZ i verificació sense solapaments. | ✅ Completat |
+| 📦 [`05-recursos.md`](docs/sprint-1/bloc-2/05-recursos.md) | **Selecció de Recursos** | Maquinari/programari detallat per a la implantació i perfils de l'equip de desplegament d'enginyeria. | ✅ Completat |
+| 💰 [`06-pressupost.md`](docs/sprint-1/bloc-2/06-pressupost.md) | **Pressupost Econòmic** | Desglossament amb preus reals de mercat, llicències, IVA (21%), fonts i justificació del ROI. | ✅ Completat |
+| 📅 [`07-planificacio.md`](docs/sprint-1/bloc-2/07-planificacio.md) | **Organització Scrum i Trello** | 5 parts del projecte, rols Scrum, llistes del tauler Kanban, inventari de targetes i enllaç docent. | ✅ Completat |
 
 ---
 
