@@ -3,7 +3,7 @@
 <p align="center">
   <img alt="Empresa" src="https://img.shields.io/badge/Aitex_Datacenter-1F3A5F?style=for-the-badge">
   <img alt="Bloc" src="https://img.shields.io/badge/Bloc_2-Disseny_i_Viabilitat-2E7D6B?style=for-the-badge">
-  <img alt="Fase" src="https://img.shields.io/badge/ estat-Avaluaci%C3%B3_d'Alternatives-D97706?style=for-the-badge">
+  <img alt="Fase" src="https://img.shields.io/badge/Estat-Avaluaci%C3%B3_d'Alternatives-D97706?style=for-the-badge">
   <img alt="CE" src="https://img.shields.io/badge/Criteris_Avaluaci%C3%B3-RA2.b_·_RA2.c_·_RA2.d_·_RA2.e-2E7D6B?style=for-the-badge">
 </p>
 

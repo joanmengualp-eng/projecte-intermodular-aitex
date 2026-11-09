@@ -62,7 +62,7 @@ pie showData
 </p>
 
 <p align="center">
-  <em>Figura 1. Organigrama d'Aitex Datacenter. (Anota d'actualitzar la imatge per eliminar la referència a Mariola Data Solutions).</em>
+  <em>Figura 1. Organigrama jeràrquic d'Aitex Datacenter (16 treballadors/es).</em>
 </p>
 
 > [!NOTE]

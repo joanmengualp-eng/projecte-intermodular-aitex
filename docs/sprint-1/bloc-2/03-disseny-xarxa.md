@@ -30,7 +30,7 @@ graph TD
     C1 ~~~ C2
     
     %% DMZ
-    C1 === SW_DMZ[Switch DMZ]
+    C1 === SW_DMZ[Zona DMZ Aïllada\nVLAN 20]
     C2 === SW_DMZ
     SW_DMZ --- SRV_WEB[Portal Web / ERP Clients]
     SW_DMZ --- SRV_MAIL[Relay Correu Extern]
@@ -59,7 +59,7 @@ graph TD
 ```
 
 <p align="center">
-  <img src="../../img/diagrama-xarxa.png" alt="Arquitectura i Topologia de Xarxa d'Aitex Datacenter" width="1000">
+  <img src="../../../img/diagrama-xarxa.png" alt="Arquitectura i Topologia de Xarxa d'Aitex Datacenter" width="1000">
 </p>
 
 <p align="center">

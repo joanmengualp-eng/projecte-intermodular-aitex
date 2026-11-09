@@ -86,20 +86,23 @@ A continuació es detalla l'assignació IP prevista per als principals component
 
 ---
 
-### B. Serveis en DMZ i Servidors Interns
+### B. Serveis en DMZ i Servidors Interns (7 Servidors Físics 2U + VM)
+
+> [!NOTE]
+> Els **7 servidors físics de gestió interna** (Rack 2U) allotgen els 7 rols principals de control, monitoratge, còpies, fitxers i portal web/ERP, mentre que els serveis lleugers de passarel·la a la DMZ (`ALC-SRV-MAIL01` i `ALC-SRV-DNSEXT01`) s'executen com a instàncies virtualitzades aïllades (LXC/KVM) dins del mateix clúster intern amb interfície exclusiva a la `VLAN 20`.
 
 | Nom de l'Equip (*Hostname*) | Xarxa / VLAN | Adreça IP | Màscara / Prefix | Passarel·la (*Gateway*) | Descripció i Serveis |
 |---|---|:---:|:---:|:---:|---|
-| `ALC-SRV-WEB01` | VLAN 20 (DMZ) | `10.20.20.10` | `255.255.255.0` (`/24`) | `10.20.20.1` | Portal Web corporatiu i ERP d'Autoservei B2B (HTTPS) |
-| `ALC-SRV-MAIL01` | VLAN 20 (DMZ) | `10.20.20.20` | `255.255.255.0` (`/24`) | `10.20.20.1` | Relay de Correu / Passarel·la Anti-Spam i Anti-Malware (SMTP) |
-| `ALC-SRV-DNSEXT01` | VLAN 20 (DMZ) | `10.20.20.30` | `255.255.255.0` (`/24`) | `10.20.20.1` | Servidor DNS Autoritatiu Públic per al domini comercial |
-| `ALC-SRV-DC01` | VLAN 30 (Interns)| `10.20.30.10` | `255.255.255.0` (`/24`) | `10.20.30.1` | Controlador de Domini Primari (Active Directory, DNS/DHCP intern) |
-| `ALC-SRV-DC02` | VLAN 30 (Interns)| `10.20.30.11` | `255.255.255.0` (`/24`) | `10.20.30.1` | Controlador de Domini Secundari (Rèplica i Alta Disponibilitat) |
-| `ALC-SRV-MON01` | VLAN 30 (Interns)| `10.20.30.20` | `255.255.255.0` (`/24`) | `10.20.30.1` | Servidor SIEM i Monitoratge Zabbix / Grafana (Syslog/SNMP) |
-| `ALC-SRV-BMS01` | VLAN 30 (Interns)| `10.20.30.25` | `255.255.255.0` (`/24`) | `10.20.30.1` | Plataforma BMS (Building Management) per a telemetria ambiental |
-| `ALC-SRV-BKP01` | VLAN 30 (Interns)| `10.20.30.30` | `255.255.255.0` (`/24`) | `10.20.30.1` | Servidor de Còpies de Seguretat Primari (Veeam / Proxmox Backup) |
-| `ALC-SRV-BKP02` | VLAN 30 (Interns)| `10.20.30.31` | `255.255.255.0` (`/24`) | `10.20.30.1` | Cabina d'Emmagatzematge i rèplica de snapshots externs |
-| `ALC-SRV-FILE01` | VLAN 30 (Interns)| `10.20.30.40` | `255.255.255.0` (`/24`) | `10.20.30.1` | Servidor de Fitxers intern per a contractes, ISOs i administració |
+| `ALC-SRV-WEB01` | VLAN 20 (DMZ) | `10.20.20.10` | `255.255.255.0` (`/24`) | `10.20.20.1` | **[Servidor Físic #1]** Portal Web corporatiu, Facturació i ERP d'Autoservei B2B (HTTPS) |
+| `ALC-SRV-MAIL01` *(VM)* | VLAN 20 (DMZ) | `10.20.20.20` | `255.255.255.0` (`/24`) | `10.20.20.1` | Relay de Correu / Passarel·la Anti-Spam i Anti-Malware (SMTP) |
+| `ALC-SRV-DNSEXT01` *(VM)*| VLAN 20 (DMZ) | `10.20.20.30` | `255.255.255.0` (`/24`) | `10.20.20.1` | Servidor DNS Autoritatiu Públic per al domini comercial |
+| `ALC-SRV-DC01` | VLAN 30 (Interns)| `10.20.30.10` | `255.255.255.0` (`/24`) | `10.20.30.1` | **[Servidor Físic #2]** Controlador de Domini Primari (Active Directory, DNS/DHCP intern) |
+| `ALC-SRV-DC02` | VLAN 30 (Interns)| `10.20.30.11` | `255.255.255.0` (`/24`) | `10.20.30.1` | **[Servidor Físic #3]** Controlador de Domini Secundari (Rèplica i Alta Disponibilitat) |
+| `ALC-SRV-MON01` | VLAN 30 (Interns)| `10.20.30.20` | `255.255.255.0` (`/24`) | `10.20.30.1` | **[Servidor Físic #4]** Servidor SIEM i Monitoratge Zabbix / Grafana (Syslog/SNMP) |
+| `ALC-SRV-BMS01` | VLAN 30 (Interns)| `10.20.30.25` | `255.255.255.0` (`/24`) | `10.20.30.1` | **[Servidor Físic #5]** Plataforma BMS (Building Management) i Seguretat Ambiental |
+| `ALC-SRV-BKP01` | VLAN 30 (Interns)| `10.20.30.30` | `255.255.255.0` (`/24`) | `10.20.30.1` | **[Servidor Físic #6]** Servidor de Còpies de Seguretat Primari (Veeam / Proxmox Backup) |
+| `ALC-SRV-BKP02` | VLAN 30 (Interns)| `10.20.30.31` | `255.255.255.0` (`/24`) | `10.20.30.1` | **[Servidor Físic #7]** Cabina d'Emmagatzematge NAS/SAN, Fitxers Interns i rèplica de snapshots |
+| `ALC-SRV-FILE01` *(VIP)* | VLAN 30 (Interns)| `10.20.30.40` | `255.255.255.0` (`/24`) | `10.20.30.1` | IP de Servei del Recurs Compartit (SMB/NFS sobre `ALC-SRV-BKP02`) per a contractes i ISOs |
 
 ---
 

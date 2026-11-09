@@ -98,7 +98,7 @@ S'ha dissenyat un tauler Kanban a Trello dividit en cinc llistes operatives per 
 | **[T1.6] Pressupost econòmic detallat** | ✅ Finalitzat | Joan Mengual | 6 h | Recopilar preus reals (FS.com, Dell), calcular subtotals, IVA (21%) i justificar el ROI (`06-pressupost.md`). |
 | **[T1.7] Planificació Scrum i Trello** | ✅ Finalitzat | Àlex Calabuig | 5 h | Definir parts del projecte, rols Scrum, estructuració de targetes i captura del tauler (`07-planificacio.md`). |
 | **[T2.1] Maquetació al laboratori (GNS3/PT)** | ⏳ Pendent | Àlex Calabuig | 12 h | Muntar la topologia simulada de routers, switches Core L3 i tallafocs al simulador de xarxa. |
-| **[T2.2] Desplegament de Proxmox VE** | ⏳ Pendent | Joan Mengual | 10 h | Instal·lació de l'hipervisor tipus 1, creació de ponts de xarxa (vmbr) i màquines virtuals de prova. |
+| **[T2.2] Desplegament de Proxmox VE** | ⚙️ En procés | Joan Mengual | 10 h | Instal·lació de l'hipervisor tipus 1, creació de ponts de xarxa (vmbr) i màquines virtuals de prova. |
 | **[T2.3] Proves d'estrès i seguretat DMZ** | ⏳ Pendent | Joan / Àlex | 8 h | Llançament d'auditoria Nmap, proves de tallafocs i simulació de fallada de switch de nucli. |
 
 ---
@@ -111,13 +111,13 @@ S'ha dissenyat un tauler Kanban a Trello dividit en cinc llistes operatives per 
 ┌─────────────────────────┬─────────────────────────┬─────────────────────────┬─────────────────────────┐
 │     ⏳ PENDENT (TO DO)   │ ⚙️ EN PROCÉS (IN PROG.) │ 🧪 EN REVISIÓ (TESTING) │   ✅ FINALITZAT (DONE)  │
 ├─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤
-│ • [T2.1] Maquetació     │ • [T2.2] Desplegament   │ • [T1.6] Verificació    │ • [T1.1] Necessitats    │
-│   laboratori GNS3/PT    │   Proxmox al laboratori │   quotes IVA pressupost │ • [T1.2] Alternatives   │
-│   (Resp: Àlex Calabuig) │   (Resp: Joan Mengual)  │   (Resp: Joan Mengual)  │ • [T1.3] Topologia DMZ  │
-│                         │                         │                         │ • [T1.4] Pla IP i VLANs │
-│ • [T2.3] Proves estrès  │                         │ • [T1.7] Revisió enllaç │ • [T1.5] Selecció Rec.  │
-│   i seguretat DMZ       │                         │   tauler Trello         │ • [T1.6] Pressupost     │
-│   (Resp: Joan / Àlex)   │                         │   (Resp: Àlex Calabuig) │ • [T1.7] Scrum Plan     │
+│ • [T2.1] Maquetació     │ • [T2.2] Desplegament   │ • [T2.0] Validació      │ • [T1.1] Necessitats    │
+│   laboratori GNS3/PT    │   Proxmox al laboratori │   pre-implantació       │ • [T1.2] Alternatives   │
+│   (Resp: Àlex Calabuig) │   (Resp: Joan Mengual)  │   de laboratori         │ • [T1.3] Topologia DMZ  │
+│                         │                         │   (Resp: Joan / Àlex)   │ • [T1.4] Pla IP i VLANs │
+│ • [T2.3] Proves estrès  │                         │                         │ • [T1.5] Selecció Rec.  │
+│   i seguretat DMZ       │                         │                         │ • [T1.6] Pressupost     │
+│   (Resp: Joan / Àlex)   │                         │                         │ • [T1.7] Scrum Plan     │
 └─────────────────────────┴─────────────────────────┴─────────────────────────┴─────────────────────────┘
 ```
 
