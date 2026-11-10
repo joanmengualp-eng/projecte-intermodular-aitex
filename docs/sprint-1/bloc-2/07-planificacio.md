@@ -93,7 +93,7 @@ S'ha dissenyat un tauler Kanban a Trello dividit en cinc llistes operatives per 
 | **[T1.1] Anàlisi de necessitats TIC** | ✅ Finalitzat | Joan Mengual | 4 h | Revisar rols de la plantilla i elaborar la taula de necessitats amb fonts consultades (`01-necessitats.md`). |
 | **[T1.2] Estudi d'alternatives i viabilitat** | ✅ Finalitzat | Àlex Calabuig | 6 h | Comparar Alternativa A vs B, plantejar el monitoratge predictiu IoT i validar la viabilitat 4D (`02-alternatives-viabilitat.md`). |
 | **[T1.3] Topologia lògica i DMZ** | ✅ Finalitzat | Joan Mengual | 6 h | Dibuixar l'esquema de xarxa en Mermaid, definir els components de la DMZ i justificar la seguretat (`03-disseny-xarxa.md`). |
-| **[T1.4] Pla d'adreçament IP i VLANs** | ✅ Finalitzat | Àlex Calabuig | 8 h | Segmentar l'espai `10.20.0.0/16`, taula d'equips, nomenclatura FQDN i verificació d'absència de solapaments (`04-adrecament-ip.md`). |
+| **[T1.4] Pla d'adreçament IP i VLANs** | ✅ Finalitzat | Àlex Calabuig | 8 h | Segmentar l'espai `192.168.0.0/16`, taula d'equips, nomenclatura directa i verificació d'absència de solapaments (`04-adrecament-ip.md`). |
 | **[T1.5] Selecció de maquinari, SO i equip** | ✅ Finalitzat | Joan Mengual | 5 h | Dimensionar servidors, xarxa, PCs, llicències i definir l'equip d'implantació (`05-recursos.md`). |
 | **[T1.6] Pressupost econòmic detallat** | ✅ Finalitzat | Joan Mengual | 6 h | Recopilar preus reals (FS.com, Dell), calcular subtotals, IVA (21%) i justificar el ROI (`06-pressupost.md`). |
 | **[T1.7] Planificació Scrum i Trello** | ✅ Finalitzat | Àlex Calabuig | 5 h | Definir parts del projecte, rols Scrum, estructuració de targetes i captura del tauler (`07-planificacio.md`). |

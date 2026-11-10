@@ -17,35 +17,35 @@ L'arquitectura es basa en un model jeràrquic de Nucli col·lapsat (Core/Distrib
 ```mermaid
 graph TD
     %% Connexions Externes
-    ISP((Proveïdors Internet\nISPs redundants)) === R1[Router Vora 1]
-    ISP === R2[Router Vora 2]
+    ISP((Proveïdors Internet\nISPs redundants)) === R1[router-1\nRouter Vora 1]
+    ISP === R2[router-2\nRouter Vora 2]
     
     %% Seguretat Perimetral
-    R1 === FW1[Firewall Perimetral 1\nActiu]
-    R2 === FW2[Firewall Perimetral 2\nPassiu]
+    R1 === FW1[firewall-1\nTallafocs Actiu]
+    R2 === FW2[firewall-2\nTallafocs Passiu]
     
     %% Nucli de Xarxa (Core)
-    FW1 === C1((Switch Core 1\nL3 - 10G/40G))
-    FW2 === C2((Switch Core 2\nL3 - 10G/40G))
+    FW1 === C1((switch-core-1\nSwitch Nucli 1))
+    FW2 === C2((switch-core-2\nSwitch Nucli 2))
     C1 ~~~ C2
     
     %% DMZ
-    C1 === SW_DMZ[Zona DMZ Aïllada\nVLAN 20]
+    C1 === SW_DMZ[Zona DMZ Aïllada\nVLAN 20 · 192.168.20.0/24]
     C2 === SW_DMZ
-    SW_DMZ --- SRV_WEB[Portal Web / ERP Clients]
-    SW_DMZ --- SRV_MAIL[Relay Correu Extern]
-    SW_DMZ --- SRV_DNS[DNS Públic]
+    SW_DMZ --- SRV_WEB[srv-web\nPortal Web / ERP]
+    SW_DMZ --- SRV_MAIL[srv-correu\nRelay Correu Extern]
+    SW_DMZ --- SRV_DNS[srv-dns-public\nDNS Públic]
     
     %% Xarxa Oficina
-    C1 === SW_OFI[Switch PoE Oficina]
+    C1 === SW_OFI[switch-oficina-1 / 2\nSwitches PoE Oficina]
     C2 === SW_OFI
-    SW_OFI -.- PC[Ordinadors i Portàtils\nAdministració i SOC]
-    SW_OFI -.- AP[Punts d'Accés Wi-Fi]
+    SW_OFI -.- PC[pc-direccio .. pc-soc\n13 PCs Usuaris]
+    SW_OFI -.- AP[ap-wifi & Portàtils\nWi-Fi Corp i Visites]
     
     %% Accés Sales Blanques (Top-of-Rack)
-    C1 === SW_TOR[32 Switches Top-of-Rack\nSales Blanques 1 a 4]
+    C1 === SW_TOR[32 Switches ToR\nswitch-tor-p2..p5]
     C2 === SW_TOR
-    SW_TOR --- SRV_PROD[320 Servidors Físics\nHalf/Full-Server B2B]
+    SW_TOR --- SRV_PROD[320 Servidors Clients\nsrv-client-p2..p5]
     
     classDef firewall fill:#e53935,stroke:#b71c1c,stroke-width:2px,color:#fff;
     classDef core fill:#1e88e5,stroke:#0d47a1,stroke-width:2px,color:#fff;
