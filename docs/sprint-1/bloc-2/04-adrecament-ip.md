@@ -12,7 +12,7 @@ Aquest document defineix el pla exhaustiu d'adreçament IP privat sota la xarxa 
 
 ## 📐 1. Esquema General de Subxarxes i VLANs (`192.168.0.0/16`)
 
-S'ha adoptat l'espai d'adreçament privat **RFC 1918** **`192.168.0.0/16`**, dividit jeràrquicament en blocs `/24` (fins a 254 equips per subxarxa) on **el tercer octet de la IP coincideix de manera directa amb l'identificador de la VLAN (`192.168.[VLAN].0/24`)**, facilitant al màxim la gestió i el diagnòstic:
+S'ha adoptat l'espai d'adreçament privat **`192.168.0.0/16`**, dividit jeràrquicament en blocs `/24` (fins a 254 equips per subxarxa) on **el tercer octet de la IP coincideix de manera directa amb l'identificador de la VLAN (`192.168.[VLAN].0/24`)**, facilitant al màxim la gestió i el diagnòstic:
 
 | VLAN ID | Nom de la Subxarxa | Xarxa (CIDR) | Màscara de Subxarxa | Passarel·la (Gateway) | Rang d'adreces útils | Tipus d'assignació | Funció / Àrea |
 |:---:|---|---|---|---|---|:---:|---|
