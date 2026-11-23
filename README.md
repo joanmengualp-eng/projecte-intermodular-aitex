@@ -60,6 +60,22 @@ En aquest segon bloc es detalla la solució tècnica, el disseny de la xarxa, el
 
 ---
 
+### 🖥️ 2.3 SPRINT 2: Implantació de la Infraestructura (VirtualBox — SA2)
+
+En aquest segon sprint s'implanta la infraestructura bàsica de laboratori en VirtualBox (5 màquines virtuals, xarxa LAN `192.168.40.0/24`, DMZ `192.168.20.0/24`, encaminament i servei DHCP):
+
+| Tasca / Fitxer | Títol del Document | Contingut Principal | Estat |
+|---|---|---|:---:|
+| 📋 [`01-pla-intervencio.md`](docs/sprint-2/01-pla-intervencio.md) | **Pla d'Intervenció i Organització** | Seqüència 5 setmanes, recursos (16 GB RAM), permisos, riscos/normes d'aula, imprevistos i seguiment Trello. | ✅ Completat |
+| 💻 [`02-maquines-virtuals.md`](docs/sprint-2/02-maquines-virtuals.md) | **Màquines Virtuals i Sistemes** | Creació i arrancada de les 5 VMs (`srv_com`, `srv_dominio`, `srv_dmz`, `PI_Cli_Linux`, `cli_win`). | ⏳ Pendent |
+| 🌐 [`03-configuracio-xarxa.md`](docs/sprint-2/03-configuracio-xarxa.md) | **Configuració LAN, DMZ i IP** | Adaptadors VirtualBox (`aitex_lan` / `aitex_dmz`), IPs fixes i diagrama actualitzat de laboratori. | ⏳ Pendent |
+| 🔀 [`04-servidor-comunicacions.md`](docs/sprint-2/04-servidor-comunicacions.md) | **Servidor de Comunicacions** | Encaminament IPv4 persistent (`ip_forward=1`), rutes LAN–DMZ i sortida exterior NAT en `srv_com`. | ⏳ Pendent |
+| 📡 [`05-dhcp.md`](docs/sprint-2/05-dhcp.md) | **Servei DHCP de la LAN** | Configuració del servidor DHCP exclusiu per a `aitex_lan` (`.50 - .200`) i concessions als clients. | ⏳ Pendent |
+| 🧪 [`06-proves-connectivitat.md`](docs/sprint-2/06-proves-connectivitat.md) | **Proves de Connectivitat** | Bateria de 10 proves (arrancada, IPs, DHCP, pings, `tracert`/`tracepath`, rutes i gateway exterior). | ⏳ Pendent |
+| 📝 [`07-seguiment-incidencies.md`](docs/sprint-2/07-seguiment-incidencies.md) | **Seguiment i Incidències** | Registre per sessió, taula d'incidències reals, revisió final i captura de Trello. | ⏳ Pendent |
+
+---
+
 ## 🎯 3. Catàleg de Serveis i Estratègia Operativa
 
 ### 📦 Modalitats d'allotjament B2B
