@@ -20,29 +20,30 @@ Aquests són els principals recursos d'**Aitex Datacenter** necessaris per mante
 |---|---|:---:|---|
 | 💻 Ordinador d'ofimàtica / portàtil | Administració, Comercial i Dir. | 3 | Gestió comercial B2B, comptabilitat i direcció |
 | 🖨️ Impressora multifunció làser | Administració, Comercial i Dir. | 1 | Imprimir contractes B2B i documentació legal |
-| 🧩 Programari ERP, CRM i Facturació | Administració, Comercial i Dir. | 3 | Portar la facturació dels plans *Half/Full-Server* i seguiment de clients |
-| 🖥️ Estació de treball d'alt rendiment | Sistemes i Suport Tècnic | 6 | Administració de sistemes operatius i hipervisors (doble monitor) |
+| 🧩 Programari ERP, CRM i Facturació | Administració, Comercial i Dir. | 1 instància (Odoo Comm.) | Gestió de facturació *Half/Full-Server*, clients B2B i tiquets (Open Source, accés web) |
+| 🖥️ Estació de treball d'alt rendiment | Sistemes i Suport Tècnic | 6 | Administració de sistemes operatius i hipervisors (doble monitor 27") |
 | 💻 Ordinador portàtil tècnic | Sistemes i Suport Tècnic | 2 | Mobilitat per les 4 plantes de sales blanques per diagnòstic directe |
-| 🗄️ Servidors Rack de Producció | Sistemes i Suport Tècnic | 320 | Maquinari dedicat per allotjar els serveis dels clients (*Half/Full-Server*) |
-| 🗄️ Servidors d'ús intern (AD, Backups) | Sistemes i Suport Tècnic | 7 | Gestió del domini, portal de clients i còpies de seguretat internes |
-| 🧩 Hipervisors de virtualització | Sistemes i Suport Tècnic | 320 | Programari (Proxmox/VMware) per segmentar els servidors físics |
-| 🧩 Programari de Tíquets i Suport | Sistemes i Suport Tècnic | 6 | Registrar i atendre les incidències dels clients 24/7 |
-| 🖥️ Estació de treball avançada (SOC) | Xarxes i Ciberseguretat | 4 | Targetes gràfiques multipantalla per a l'anàlisi de trànsit i logs |
-| 📺 Videowall (Pantalles de 55") | Xarxes i Ciberseguretat | 4 | Monitoratge visual permanent del trànsit i seguretat a la sala NOC |
-| 🌍 Routers de vora d'alta capacitat | Xarxes i Ciberseguretat | 2 | Connexió a Internet BGP redundant amb múltiples proveïdors (ISP) |
-| 🛡️ Tallafocs físics (Anti-DDoS) | Xarxes i Ciberseguretat | 2 | Filtrar trànsit maliciós i protegir el perímetre de xarxa |
-| ⚡ Switches *Core* i d'Accés | Xarxes i Ciberseguretat | 36 | 2 Nucli + 32 Accés Sales Blanques + 2 Accés Oficina (PoE) |
-| 📶 Punts d'accés Wi-Fi | Xarxes i Ciberseguretat | 6 | Cobertura de xarxa per als tècnics a les 5 plantes |
-| 🧩 Programari SIEM i Monitoratge xarxa | Xarxes i Ciberseguretat | 4 | Detecció d'intrusions (IDS) i alertes de caiguda de nodes en temps real |
-| 💻 Ordinador portàtil robust (*rugged*) | Manteniment i Infraestructura | 3 | Supervisió física de maquinari en entorns freds i sorollosos |
-| 🏷️ Impressora tèrmica d'etiquetes | Manteniment i Infraestructura | 2 | Etiquetar els 320 servidors, cablatge i discs durs |
-| 🔌 SAIs (UPS) i Generadors elèctrics | Manteniment i Infraestructura | *Infra.* | Evitar apagades als servidors (Alta Disponibilitat) |
-| ❄️ Sistemes de climatització | Manteniment i Infraestructura | *Infra.* | Refrigeració contínua a les 4 plantes de sales blanques |
-| 🧩 Programari BMS (Building Mngmt.) | Manteniment i Infraestructura | 3 | Monitorar la temperatura de les sales i el consum elèctric dels *racks* |
-| ☎️ Telèfon IP amb auriculars | Tots els departaments | 16 | Comunicació interna i atenció de suport (PoE) |
-| 🧩 Sistema operatiu d'ordinador | Tots els departaments | 18 | Llicències Windows/Linux per als equips de la plantilla |
-| 🧩 Programari ofimàtic i correu | Tots els departaments | 16 | Eines ofimàtiques i comunicació corporativa |
-| 🧩 Antivirus corporatiu (Endpoints) | Tots els departaments | 18 | Protecció dels 18 ordinadors d'usuari |
+| 🗄️ Servidors Rack 1U de Producció | Sistemes i Suport Tècnic | 320 | `Dell PowerEdge R360` per allotjar els serveis dels clients (*Half/Full-Server*) |
+| 🗄️ Servidors Rack 2U d'ús intern | Sistemes i Suport Tècnic | 7 | `Dell PowerEdge R750xs` (AD/DNS, SIEM, BMS, portal web/ERP i backups) |
+| 🧩 Hipervisor de virtualització | Sistemes i Suport Tècnic | 320 sockets | **Proxmox VE** (Subscripció Community, 1 socket per servidor R360) |
+| 🧩 SO de Servidor i Còpies de Seguretat | Sistemes i Suport Tècnic | 2 Win. + 5 Deb. + 1 Veeam | 2× Windows Server 2022 Datacenter (AD), 5× Debian 12 i 1 suite Veeam Backup |
+| 🖥️ Estació de treball avançada (SOC) | Xarxes i Ciberseguretat | 4 | Estacions multipantalla per a l'anàlisi de trànsit i logs |
+| 📺 Videowall (Pantalles de 55") | Xarxes i Ciberseguretat | 4 | `Samsung VH55R-R` per al monitoratge visual permanent 24/7 a la sala NOC |
+| 🌍 Routers de vora d'alta capacitat | Xarxes i Ciberseguretat | 2 | `MikroTik CCR2216-1G-12XS-2XQ` (BGP redundant amb dos ISPs de fibra 10G) |
+| 🛡️ Tallafocs físics NGFW (Clúster HA) | Xarxes i Ciberseguretat | 2 (+2 subscr.) | `Fortinet FortiGate 400F` amb subscripció FortiGuard UTP + FortiCare 24×7 |
+| ⚡ Switches *Core* i d'Accés | Xarxes i Ciberseguretat | 36 | 2 Core `FS S5860-20SQ` + 32 ToR `FS S3900-48T4S` + 2 PoE `Cisco CBS350-48P-4G` |
+| 📶 Punts d'accés Wi-Fi 6 | Xarxes i Ciberseguretat | 6 | `Ubiquiti UniFi U6 Pro` (cobertura corporativa i visites a les 5 plantes) |
+| 🧩 Programari SIEM i Monitoratge xarxa | Xarxes i Ciberseguretat | 1 plataforma (Open Source) | **Zabbix + Grafana + Wazuh** (IDS, telemetria SNMP i alertes en temps real) |
+| 💻 Ordinador portàtil robust (*rugged*) | Manteniment i Infraestructura | 3 | `Dell Latitude 5540` per a supervisió física a les 4 sales blanques |
+| 🏷️ Impressora tèrmica d'etiquetes | Manteniment i Infraestructura | 2 | `Brother PT-E550W` per etiquetar servidors, racks i cablatge (TIA-606-B) |
+| 🔋 SAIs Trifàsics N+1 i Grup Electrògen | Manteniment i Infraestructura | 3 SAIs + 1 Gen. | 3× `Schneider Galaxy VS 80 kW` (N+1) + 1× Grup Electrògen Dièsel 250 kVA |
+| ❄️ Climatització de precisió (CRAC N+1) | Manteniment i Infraestructura | 8 unitats | 8× `Schneider Uniflair 35–40 kW` (2 unitats N+1 per cada sala blanca) |
+| 🗄️ Armaris Rack 42U, PDUs A+B i KVMs | Manteniment i Infraestructura | 18 / 36 / 8 | 18 racks `Rittal TS IT`, 36 PDUs intel·ligents (A+B) i 8 consoles KVM `Aten CL5708IM` |
+| 🧩 Programari BMS (Building Mngmt.) | Manteniment i Infraestructura | 1 plataforma (Open Source) | Integració de sondes tèrmiques, PDUs i SAIs sobre Zabbix/Grafana BMS |
+| ☎️ Telèfon IP amb auriculars | Tots els departaments | 16 | `Yealink T43U` (PoE) per a comunicació interna i suport tècnic |
+| 🧩 Sistema operatiu d'ordinador | Tots els departaments | 18 llicències | **Windows 11 Pro** (13 PCs + 5 portàtils, amb dual boot Ubuntu LTS en tècnics) |
+| 🧩 Programari ofimàtic i correu | Tots els departaments | 16 usuaris (Open Source) | **LibreOffice** i **Thunderbird** (0 € en llicències privatives) |
+| 🧩 Antivirus / EDR corporatiu | Tots els departaments | 18 llicències | **Bitdefender GravityZone Business** (protecció dels 18 equips d'usuari) |
 
 ---
 

@@ -103,27 +103,25 @@ S'ha dissenyat un tauler Kanban a Trello dividit en cinc llistes operatives per 
 
 ---
 
-## 🖼️ 5. Representació Visual del Tauler i Enllaç Accessible
+## 🖼️ 5. Captura Real del Tauler de Trello i Enllaç Accessible
 
-### Esquema Gràfic de la Distribució de Targetes a Trello:
+Per acreditar el seguiment real de les tasques, els responsables i l'estat de cada targeta del Sprint 1, s'adjunta la captura directa del tauler Kanban a Trello:
 
-```
-┌─────────────────────────┬─────────────────────────┬─────────────────────────┬─────────────────────────┐
-│     ⏳ PENDENT (TO DO)   │ ⚙️ EN PROCÉS (IN PROG.) │ 🧪 EN REVISIÓ (TESTING) │   ✅ FINALITZAT (DONE)  │
-├─────────────────────────┼─────────────────────────┼─────────────────────────┼─────────────────────────┤
-│ • [T2.1] Maquetació     │ • [T2.2] Desplegament   │ • [T2.0] Validació      │ • [T1.1] Necessitats    │
-│   laboratori GNS3/PT    │   Proxmox al laboratori │   pre-implantació       │ • [T1.2] Alternatives   │
-│   (Resp: Àlex Calabuig) │   (Resp: Joan Mengual)  │   de laboratori         │ • [T1.3] Topologia DMZ  │
-│                         │                         │   (Resp: Joan / Àlex)   │ • [T1.4] Pla IP i VLANs │
-│ • [T2.3] Proves estrès  │                         │                         │ • [T1.5] Selecció Rec.  │
-│   i seguretat DMZ       │                         │                         │ • [T1.6] Pressupost     │
-│   (Resp: Joan / Àlex)   │                         │                         │ • [T1.7] Scrum Plan     │
-└─────────────────────────┴─────────────────────────┴─────────────────────────┴─────────────────────────┘
-```
+<p align="center">
+  <img src="../../../img/trello-sprint1.png" alt="Captura real del tauler de Trello - Aitex Datacenter (Sprint 1)" width="1000">
+</p>
+
+<p align="center">
+  <em>Figura 3. Captura real del tauler de Trello d'Aitex Datacenter mostrant les llistes Pendent, En procés, En revisió i Finalitzat amb les targetes assignades a l'equip.</em>
+</p>
+
+> [!IMPORTANT]
+> **Nota per a l'equip:** Pugeu la captura real del vostre tauler de Trello amb el nom exacte `img/trello-sprint1.png` i verifiqueu que l'enllaç inferior corresponga a la URL real del vostre tauler públic/compartit amb el professorat.
 
 ### 🔗 Enllaç d'accés per al professorat:
 
 > [!TIP]
 > **Enllaç directe al Tauler Oficial de Trello:**
 > [🔗 Accedir al Tauler de Trello - Aitex Datacenter (Scrum & Kanban)](https://trello.com/b/AitexDatacenterScrum/projecte-intermodular)
-> *(El tauler està configurat amb accés públic de lectura per a revisió docent i seguiment de les targetes en temps real).*
+> *(El tauler està configurat amb accés de lectura per a revisió docent i seguiment de les targetes en temps real).*
+
